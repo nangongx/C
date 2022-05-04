@@ -15,10 +15,10 @@ clock=pygame.time.Clock()
 game_font=pygame.font.Font(None,40)
 game_result="game over!"
             
-background=pygame.image.load(r"C:\Users\게임콘텐츠\Desktop\shooting\night.png")
-chargrond=pygame.image.load(r"C:\Users\게임콘텐츠\Desktop\shooting\jet.png")
-enemygrond=pygame.image.load(r"C:\Users\게임콘텐츠\Desktop\shooting\nom.png")
-missile=pygame.image.load(r"C:\Users\게임콘텐츠\Desktop\shooting\missile.png")
+background=pygame.image.load(r"\night.png")
+chargrond=pygame.image.load(r"\jet.png")
+enemygrond=pygame.image.load(r"\nom.png")
+missile=pygame.image.load(r"\missile.png")
 
 chargrond_size=chargrond.get_rect().size
 chargrond_width=chargrond_size[0]
